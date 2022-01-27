@@ -1,0 +1,5 @@
+A directory is like a folder. Directory is the term used when talking about file systems, but it functions exactly like a folder. It has different files that relate to each other within it. 
+
+VCS are useful becuase they let you see exactly what has changed between versions of a project. For example, you can see I made initial files while working along with the webiste instructions that I'm now changing for the assginment instructions. 
+
+my favorite artistic medium is pottery because I grew up around potters and I like the combination of function and form. 
