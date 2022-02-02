@@ -1,0 +1,6 @@
+- An IP address is a number that is assigned to devices that identify its location. a DNS looks up domain names fed to it and gets the associated IP. This is how devices and people find specific sites.
+- A cookie is an ID number assigned to a device to identify a user, it's stored on the individual device and used for subsequent visits to the same website.
+- The three essential parts of a URL are
+    1. the protocol
+    2. the domain and subdomains
+    3. the path
