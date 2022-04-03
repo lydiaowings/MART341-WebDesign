@@ -1,0 +1,59 @@
+body {
+  background-color: #CF9565;
+  font-family: serif;
+  text-align: center;
+}
+
+div {
+  background-color: #E8D8BF;
+  border: 6px solid #A9BF04;
+  width: 800px;
+  margin: auto;
+}
+
+img {
+  border-radius: 20%
+}
+
+.picture {
+  background-color: #D67876;
+}
+
+.palette {
+  background-color: black
+}
+
+h3 {
+  color: #D67876
+}
+
+#puppies {
+  font size: 70pt;
+  color: #324001;
+}
+
+.blob {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+.blob.one {
+  background-color: #324001
+}
+
+.blob.two {
+  background-color: #A9BF04
+}
+
+.blob.three {
+  background-color: #D67876
+}
+
+.blob.four {
+  background-color: #E8D8BF
+}
+
+.blob.five {
+  background-color: #CF9565
+}
