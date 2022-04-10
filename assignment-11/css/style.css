@@ -1,0 +1,84 @@
+body{
+  background-color: #68422B
+  }
+
+div{
+    text-align:center;
+    margin: 10px;
+  }
+
+#headline {
+  background-image: url("../images/puppy.webp");
+  background-repeat:repeat;
+  background-position: center;
+  background-size:contain;
+  height: 250px;
+
+}
+
+h1 {
+  color: #D2D2C8;
+  font-family: Mukta;
+  font-weight: 700;
+  letter-spacing: normal;
+  font-size: 150px;
+}
+
+h1:hover {
+  color: #8FA5B3;
+  font-family: Satisfy;
+  font-size: 110px;
+  letter-spacing: .1em;
+}
+
+img{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%;
+  border-radius: 2%;
+}
+
+img:hover{
+  width:80%;
+}
+
+.blurb{
+  border: 5px solid #BB9178;
+  color: #C48B9C;
+  font-family: Mukta;
+  font-size: 20px;
+  line-height:26px;
+}
+
+.most{
+  border: 5px solid #D2D2C8;
+  color: #8FA5B3
+  font-family: Mukta;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+}
+
+.subsection{
+  color: #8FA5B3;
+  font-family: Mukta;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.subsection::first-line{
+  font-family: Satisfy;
+  font-size: 35px;
+}
+
+a{
+  text-decoration: underline;
+  color: #D2D2C8;
+}
+
+a:visited{
+  color: #BB9178;
+}
