@@ -1,0 +1,178 @@
+body {
+  background-color: #68422B;
+  margin: 0px;
+  padding: 0px;
+  }
+
+.blurb {
+    text-align:center;
+    margin: 10px;
+  }
+.most {
+  text-align:center;
+  margin: 10px;
+}
+#headline {
+  text-align:center;
+  margin: 10px;
+}
+
+#headline {
+  background-image: url("../images/puppy.webp");
+  background-repeat:repeat;
+  background-position: center;
+  background-size:contain;
+  height: 250px;
+
+}
+
+h1 {
+  color: #D2D2C8;
+  font-family: Mukta;
+  font-weight: 700;
+  letter-spacing: normal;
+  font-size: 150px;
+}
+
+h1:hover {
+  color: #8FA5B3;
+  font-family: Satisfy;
+  font-size: 110px;
+  letter-spacing: .1em;
+}
+
+img {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%;
+  border-radius: 2%;
+}
+
+img:hover {
+  width:80%;
+}
+
+.blurb {
+  border: 5px solid #BB9178;
+  color: #C48B9C;
+  font-family: Mukta;
+  font-size: 20px;
+  line-height:26px;
+}
+
+.most {
+  border: 5px solid #D2D2C8;
+  color: #8FA5B3
+  font-family: Mukta;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+}
+
+.subsection{
+  color: #8FA5B3;
+  font-family: Mukta;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.subsection::first-line{
+  font-family: Satisfy;
+  font-size: 35px;
+}
+
+a {
+  text-decoration: underline;
+  color: #BB9178;
+}
+
+a:visited {
+  color: #BB9178;
+}
+
+/* Menu Style Sarts Here */
+header {
+  position: fixed;
+  align: left;
+  background-color: #C48B9C;
+  width: 99.2%;
+  height: 5%;
+  top: 0px;
+  border: 10px double #D2D2C8;
+  font-family: Mukta;
+  text-align: right;
+}
+
+/* menu layout */
+.menu-item {
+  display: inline-block;
+  margin: .3em;
+  background-color: black;
+  padding: .3em;
+  border-radius: 1em;
+  min-width: 8em;
+  text-align: center;
+}
+
+.menu-item:hover {
+  background-color: #8FA5B3;
+}
+
+/* link syles */
+.menu-item a {
+  color: white;
+  text-decoration: none;
+}
+.menu-item:hover a {
+  color: black;
+}
+
+/* dropdown */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-stuff {
+  display: none;
+  position: absolute;
+  margin: .5em 0 0 1em;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-stuff {
+  display:block;
+
+}
+
+/* dropdown item display */
+
+.dropdown-item {
+  background-color: #BB9178;
+  display: block;
+  align: left;
+  margin: 0;
+  padding: .4em .6em .4em .6em;
+  min-width: 5em;
+  border-radius: 1em;
+
+}
+
+.dropdown-item:hover, .dropdown-item a:hover {
+  background-color: #D2D2C8;
+  text-decoration: underline;
+}
+
+/* site name styling */
+
+.site-name {
+  color: #68422B;
+  float: left;
+  margin: .3em 0 0 .4em;
+  min-width: 4em;
+  font-family: Mutka;
+  font-weight: 700;
+  font-size: 150%;
+}
