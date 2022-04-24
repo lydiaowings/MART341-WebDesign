@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Notable', sans-serif;
+  src: url('..fonts/Notable-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nova Mono', monospace;
+  src: url('../fonts/NovaMono-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nova Round';
+  src: url('../fonts/NovaRound-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nova Slim';
+  src: url('../fonts/NovaSlim-Regular.ttf') format('truetype');
+  font-style: normal;
+}
