@@ -1,0 +1,282 @@
+/* don't forget to delete all the rando comments */
+.pages  {
+/*  background-color: #DFDDDA; */
+/*  background-color: #F7C0EA; */
+  background-image: url("../images/SpacePattern.png");
+  text-align: center;
+}
+
+/* about me background */
+.mebackground {
+  background-image: url("../images/GeometricPatternBackground3.png");
+  text-align: center;
+}
+
+#standard {
+  background-color: #E1E1E1;
+  border: 1em white solid;
+  width: 80%;
+  min-width: 800px;
+  margin:auto;
+  padding:inherit;
+}
+
+#headline {
+  background-color: #8C8D92;
+  border: 1em white solid;
+  width: 80%;
+  min-width: 800px;
+  margin:auto;
+  padding:.1em .1em .1em .1em ;
+}
+
+h1 {
+  color: #F5F29A;
+  font-family: Nova Round;
+  font-size: 4em;
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: black;
+  padding: 0;
+  margin: 1%;
+}
+
+h2, p {
+  font-family: Nova Slim;
+}
+p {
+  margin: 0 10% 1% 10%;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* Menu Style Sarts Here */
+header {
+  /* align: right; (not useful, i think)*/
+  background-color: #D5BFF5;
+  width: 99.2%;
+  height: 5%;
+  min-height: 50px;
+  top: 0px;
+  border: 8px white solid;
+  font-family: Nova Slim;
+  text-align: center;
+  padding: .4em .2em 0 0;
+}
+
+.menu {
+  float: right;
+  min-width: 6em;
+
+}
+
+/* menu layout */
+.menu-item {
+  display: inline-block;
+  margin: .3em;
+  background-color: black;
+  padding: .3em;
+  border-radius: 1em;
+  min-width: 8em;
+  text-align: center;
+}
+
+.menu-item:hover {
+  background-color: #8C8D92;
+}
+
+/* link syles */
+.menu-item a {
+  color: white;
+  text-decoration: none;
+}
+.menu-item:hover a {
+  color: black;
+}
+
+/* dropdown */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-stuff {
+  display: none;
+  position: absolute;
+  margin: 5px 0 0 1em;
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-stuff {
+  display:block;
+
+}
+
+/* dropdown item display */
+
+.dropdown-item {
+  background-color: #F5F29A;
+  display: block;
+  align: right;
+  margin: 0 0 0 -3px;
+  padding: .4em 1em .4em .6em;
+  min-width: 5em;
+  border-radius: .2em;
+
+}
+
+.dropdown-item:hover, .dropdown-item a:hover {
+  background-color: #D2D2C8;
+  text-decoration: underline;
+  color: white;
+}
+
+/* end of menu style */
+
+/* green: #C5F5B9
+  orange: #FAE0B4 */
+
+/* homepage style starts here */
+
+.homebody {
+  background-image: url("../images/dottedstar.png");
+  text-align: center;
+  background-size: 20%;
+}
+
+.homecontent {
+  position: relative;
+  text-align: center;
+  padding: 1% 1% 1% 1%;
+  margin: 0;
+  width: 30%;
+  height: 90%;
+}
+
+.homeimage {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border: 10px solid;
+  border-color:#D5BFF5;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.homeimage:hover {
+  filter:grayscale(0%);
+  filter:none;
+  transition: .5s ease;
+  transform: scale(.8);
+  transition: 1s ease;
+}
+
+/* .homecontent:hover {
+  transform: scale(.8);
+  transition: 1s ease;
+
+}
+*/
+
+#nasahome {
+  float:left;
+  padding: 0 0 0 16%;
+}
+
+#startrek {
+  float:right;
+  padding: 0 16% 0 0;
+}
+
+#science {
+  float:left;
+  padding: 0 0 0 16%;
+}
+
+#aboutme {
+  float:right;
+  padding: 0 16% 0 0;
+}
+
+h3 {
+  position: relative;
+  text-align: center;
+  font-family: Nova Round;
+  font-size: 3em;
+  color: #D5BFF5;
+  padding: 10% 0 0 0;
+  margin: 0 0 0 0;
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: black;
+
+}
+
+.top {
+  width: 100%;
+  height: 100%;
+}
+
+/* .bottom {
+  width: 100%;
+  position: absolute;
+  align-self: baseline;
+
+} */
+
+/* #homehead {
+  background-color: #8C8D92;
+  border: 10px solid;
+  border-color: white;
+  width: 80%;
+  min-width: 800px;
+  margin:auto;
+  padding:.1em .1em .1em .1em;
+  border-radius: 50%;
+} */
+
+h4 {
+  color: black;
+  font-family: Nova Round;
+  font-weight: bold;
+  font-size: 5em;
+  padding: 0;
+  margin: 0;
+  -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: white;
+
+}
+
+#endpage {
+  background-color: #8C8D92;
+  border: 1em white solid;
+  width: 80%;
+  min-width: 800px;
+  margin:auto;
+  padding:inherit;
+}
+
+.bottomlink {
+  color: #F5F29A;
+  text-decoration: underline;
+}
+
+a.bottomlink:hover, a.bottomlink:visited:hover {
+  color: #D5BFF5;
+}
+
+a.bottomlink:visited {
+  color: #E1E1E1;
+}
+
+.hometextlink {
+  text-decoration: none;
+}
+
+a.hometextlink:hover, h3:hover {
+  color: white;
+}
