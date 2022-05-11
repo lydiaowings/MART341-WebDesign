@@ -60,7 +60,7 @@ header {
 
 .menu {
   float: right;
-  min-width: 6em;
+  width: 6em;
 
 }
 
@@ -113,7 +113,7 @@ header {
   align: right;
   margin: 0 0 0 -3px;
   padding: .4em 1em .4em .6em;
-  min-width: 5em;
+  width: 5em;
   border-radius: .2em;
 
 }
@@ -310,12 +310,16 @@ header {
   height: 2.5em;
 }
 
+.menu {
+  width: 100%;
+}
+
 .menu-item {
-    width: 6em;
+    width: 5em;
     max-height: 4em;
     padding: .33em;
-    margin: .33em;
-    line-height: .5em;
+    margin: 0 .33em .33em .33em;
+    line-height: .7em;
 }
 .menu-item a{
   font-size: .8em;
@@ -338,7 +342,7 @@ header {
   align: right;
   margin: 0 0 0 -3px;
   padding: .7em .6em .3em .4em;
-  min-width: 5em;
+  width: 3.6em;
   border-radius: .2em;
   height: 1em;
 
