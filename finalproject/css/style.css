@@ -311,14 +311,14 @@ header {
 }
 
 .menu-item {
-    width: 5em;
-    max-height: 2em;
-    padding: .13em;
-    margin: .13em;
+    width: 7em;
+    max-height: 4em;
+    padding: .33em;
+    margin: .33em;
     line-height: .5em;
 }
 .menu-item a{
-  font-size: .7em;
+  font-size: 1em;
   padding: 0;
   margin:0;
   line-height: .5em;
@@ -327,7 +327,7 @@ header {
 .dropdown-stuff {
   display: none;
   position: absolute;
-  margin: .12em 0 0 .35em;
+  margin: .35em 0 0 .55em;
   z-index: 1;
   text-align: center;
 }
@@ -337,9 +337,10 @@ header {
   display: block;
   align: right;
   margin: 0 0 0 -3px;
-  padding: .2em .5em .2em .3em;
-  min-width: 4em;
+  padding: .7em .6em .3em .4em;
+  min-width: 5em;
   border-radius: .2em;
+  height: 1em;
 
 }
 
