@@ -50,7 +50,7 @@ header {
   background-color: #D5BFF5;
   width: 99.2%;
   height: 5%;
-  min-height: 50px;
+  height: 50px;
   top: 0px;
   border: 8px white solid;
   font-family: Nova Slim;
@@ -71,7 +71,7 @@ header {
   background-color: black;
   padding: .3em;
   border-radius: 1em;
-  min-width: 8em;
+  width: 8em;
   text-align: center;
 }
 
@@ -305,4 +305,42 @@ a.hometextlink:hover, h3:hover {
   h4 {
     font-size: 5em;
   }
+
+header {
+  height: 2.5em;
+}
+
+.menu-item {
+    width: 5em;
+    max-height: 2em;
+    padding: .13em;
+    margin: .13em;
+    line-height: .5em;
+}
+.menu-item a{
+  font-size: .7em;
+  padding: 0;
+  margin:0;
+  line-height: .5em;
+}
+
+.dropdown-stuff {
+  display: none;
+  position: absolute;
+  margin: .12em 0 0 .35em;
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-item {
+  background-color: #F5F29A;
+  display: block;
+  align: right;
+  margin: 0 0 0 -3px;
+  padding: .2em .5em .2em .3em;
+  min-width: 4em;
+  border-radius: .2em;
+
+}
+
 }
