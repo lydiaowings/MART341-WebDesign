@@ -311,14 +311,14 @@ header {
 }
 
 .menu-item {
-    width: 7em;
+    width: 6em;
     max-height: 4em;
     padding: .33em;
     margin: .33em;
     line-height: .5em;
 }
 .menu-item a{
-  font-size: 1em;
+  font-size: .8em;
   padding: 0;
   margin:0;
   line-height: .5em;
@@ -327,7 +327,7 @@ header {
 .dropdown-stuff {
   display: none;
   position: absolute;
-  margin: .35em 0 0 .55em;
+  margin: .35em 0 0 .35em;
   z-index: 1;
   text-align: center;
 }
